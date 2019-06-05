@@ -182,5 +182,15 @@ int main()
 	//the execution time of creating an n-element vector by calling the push_back n times on an initially empty
 	//vector is never more than a constant multiple of n
 
+
+	vector<vector<int>> vect;
+	/*iterating over 2d matrix */
+	for(auto i = vect.begin() ; i<vect.end() ; i++){
+    for(auto j = i->begin() ; j<i->end() ; j++){
+		cout << *j <<" ";
+    	cout <<"\n";  
+  	}
+	}
+
 	return 0;	
 }
