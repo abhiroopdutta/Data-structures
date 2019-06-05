@@ -11,5 +11,5 @@ So in internal sorting you can do something like shell sort - just access whatev
 moment you want. 
 You can't do that in external sorting - the array is not entirely in memory, so you can't just randomly access any element in memory and accessing it randomly on disk is usually extremely slow.
 The external sorting algorithm has to deal with loading and unloading chunks of data in optimal manner.
-
+5. Recursive vs non-recursive
 
