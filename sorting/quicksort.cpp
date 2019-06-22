@@ -1,15 +1,9 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 
 //quicksort is O(n^2) worst case and O(n logn) in average case
-void swap(int &a, int &b)
-{
-    int temp = a;
-    a = b;
-    b = temp;
 
-}
 
 int partition(int *a, int start, int end)
 {
